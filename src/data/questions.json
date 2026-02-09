@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "¿De quién es hijo Cupido en la mitología romana?",
+    "options": ["Venus", "Diana", "Juno", "Minerva"],
+    "answer": "Venus"
+  },
+  {
+    "id": 2,
+    "question": "¿En qué siglo el Papa Gelasio I declaró el 14 de febrero como el día de San Valentín?",
+    "options": ["Siglo V", "Siglo III", "Siglo X", "Siglo XV"],
+    "answer": "Siglo V"
+  },
+  {
+    "id": 3,
+    "question": "¿Qué flor se asocia tradicionalmente con el amor y la pasión?",
+    "options": ["Rosa Roja", "Tulipán", "Margarita", "Lirio"],
+    "answer": "Rosa Roja"
+  },
+  {
+    "id": 4,
+    "question": "¿En qué país se celebra el Día de San Valentín como el \"Día del Amigo\" (Ystävänpäivä)?",
+    "options": ["Finlandia", "Brasil", "Japón", "Italia"],
+    "answer": "Finlandia"
+  },
+  {
+    "id": 5,
+    "question": "¿Qué hormona es conocida como la \"hormona del amor\" o del abrazo?",
+    "options": ["Oxitocina", "Dopamina", "Serotonina", "Adrenalina"],
+    "answer": "Oxitocina"
+  },
+  {
+    "id": 6,
+    "question": "¿Qué color de rosa simboliza la amistad?",
+    "options": ["Amarillo", "Blanco", "Rosa", "Rojo"],
+    "answer": "Amarillo"
+  },
+  {
+    "id": 7,
+    "question": "¿Qué fruta era llamada pomme d'amour (manzana del amor) por los franceses?",
+    "options": ["Tomate", "Fresa", "Cereza", "Granada"],
+    "answer": "Tomate"
+  },
+  {
+    "id": 8,
+    "question": "¿Qué antigua fiesta romana se considera precursora de San Valentín?",
+    "options": ["Lupercalia", "Saturnalia", "Feralia", "Lemuria"],
+    "answer": "Lupercalia"
+  },
+  {
+    "id": 9,
+    "question": "¿Quién escribió el primer poema de San Valentín conocido mientras estaba encarcelado?",
+    "options": ["Carlos, Duque de Orleans", "Geoffrey Chaucer", "William Shakespeare", "San Valentín"],
+    "answer": "Carlos, Duque de Orleans"
+  },
+  {
+    "id": 10,
+    "question": "¿Qué representa la \"X\" en la firma \"XOXO\"?",
+    "options": ["Un beso", "Un abrazo", "Amor", "Amistad"],
+    "answer": "Un beso"
+  }
+]
