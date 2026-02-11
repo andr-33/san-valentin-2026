@@ -1,62 +1,104 @@
 [
   {
     "id": 1,
-    "question": "¿De quién es hijo Cupido en la mitología romana?",
-    "options": ["Venus", "Diana", "Juno", "Minerva"],
-    "answer": "Venus"
+    "question": "¿Qué día nos conocimos?",
+    "options": [
+      "20 Enero",
+      "1 Febrero",
+      "7 Febrero",
+      "31 Enero"
+    ],
+    "answer": "1 Febrero"
   },
   {
     "id": 2,
-    "question": "¿En qué siglo el Papa Gelasio I declaró el 14 de febrero como el día de San Valentín?",
-    "options": ["Siglo V", "Siglo III", "Siglo X", "Siglo XV"],
-    "answer": "Siglo V"
+    "question": "¿A donde fuimos el 14 de Febrero del 2025?",
+    "options": [
+      "Centro Botín",
+      "Mataleñas",
+      "Bahía",
+      "Palacio de la Magdalena"
+    ],
+    "answer": "Bahía"
   },
   {
     "id": 3,
-    "question": "¿Qué flor se asocia tradicionalmente con el amor y la pasión?",
-    "options": ["Rosa Roja", "Tulipán", "Margarita", "Lirio"],
-    "answer": "Rosa Roja"
+    "question": "¿Quién queria besar a quién?",
+    "options": [
+      "Yo a ti",
+      "Tu a mi"
+    ],
+    "answer": "Yo a ti"
   },
   {
     "id": 4,
-    "question": "¿En qué país se celebra el Día de San Valentín como el \"Día del Amigo\" (Ystävänpäivä)?",
-    "options": ["Finlandia", "Brasil", "Japón", "Italia"],
-    "answer": "Finlandia"
+    "question": "¿Cuantos meses llevamos juntos?",
+    "options": [
+      "8",
+      "12",
+      "14",
+      "9"
+    ],
+    "answer": "9"
   },
   {
     "id": 5,
-    "question": "¿Qué hormona es conocida como la \"hormona del amor\" o del abrazo?",
-    "options": ["Oxitocina", "Dopamina", "Serotonina", "Adrenalina"],
-    "answer": "Oxitocina"
+    "question": "¿Cuál fue tu primer apodo?",
+    "options": [
+      "Osita",
+      "Fuchi fuchi",
+      "Pequitas",
+      "Pollito"
+    ],
+    "answer": "Pequitas"
   },
   {
     "id": 6,
-    "question": "¿Qué color de rosa simboliza la amistad?",
-    "options": ["Amarillo", "Blanco", "Rosa", "Rojo"],
-    "answer": "Amarillo"
+    "question": "¿Quién dijo 'te amo' primero?",
+    "options": [
+      "Katie",
+      "Andreé"
+    ],
+    "answer": "Andreé"
   },
   {
     "id": 7,
-    "question": "¿Qué fruta era llamada pomme d'amour (manzana del amor) por los franceses?",
-    "options": ["Tomate", "Fresa", "Cereza", "Granada"],
-    "answer": "Tomate"
+    "question": "¿Cuál no es un apodo que te he dicho?",
+    "options": [
+      "Panpatu",
+      "Boquita",
+      "Chaparrita",
+      "Limoncito"
+    ],
+    "answer": "Limoncito"
   },
   {
     "id": 8,
-    "question": "¿Qué antigua fiesta romana se considera precursora de San Valentín?",
-    "options": ["Lupercalia", "Saturnalia", "Feralia", "Lemuria"],
-    "answer": "Lupercalia"
+    "question": "¿Eres una rata?",
+    "options": [
+      "Si",
+      "No"
+    ],
+    "answer": "Si"
   },
   {
     "id": 9,
-    "question": "¿Quién escribió el primer poema de San Valentín conocido mientras estaba encarcelado?",
-    "options": ["Carlos, Duque de Orleans", "Geoffrey Chaucer", "William Shakespeare", "San Valentín"],
-    "answer": "Carlos, Duque de Orleans"
+    "question": "Hipoteticamente ¿Cuantos hijos nos gustaria tener?",
+    "options": [
+      "0",
+      "1-2",
+      "3-4",
+      "4+"
+    ],
+    "answer": "3-4"
   },
   {
     "id": 10,
-    "question": "¿Qué representa la \"X\" en la firma \"XOXO\"?",
-    "options": ["Un beso", "Un abrazo", "Amor", "Amistad"],
-    "answer": "Un beso"
+    "question": "¿Crees que te amo?",
+    "options": [
+      "Si",
+      "No"
+    ],
+    "answer": "Si"
   }
 ]

@@ -2,13 +2,18 @@ import React from 'react';
 
 const StartScreen = ({ onStart }) => {
     return (
-        <div className="card">
-            <h1>Trivia de San Valentín ❤️</h1>
-            <p style={{ fontSize: '1.2rem', marginBottom: '2rem' }}>
-                ¡Bienvenido al reto del amor! Demuestra cuánto sabes sobre el Día de San Valentín.
+        <div className="bg-white p-8 rounded-2xl shadow-xl w-[500px] border-2 border-primary">
+            <h1 className="text-5xl font-bold text-secondary mb-8 drop-shadow-sm leading-tight">Trivia de San Valentín ❤️</h1>
+            <p className="text-xl mb-8 leading-relaxed">
+                ¡Bienvenida mi bichito conejito! <br /> Vamos a ver cuanto conoces de nosotros.
                 Responde correctamente al menos 7 de las 10 preguntas para desbloquear una sorpresa especial.
             </p>
-            <button onClick={onStart}>Comenzar</button>
+            <button
+                onClick={onStart}
+                className="bg-secondary text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-primary hover:-translate-y-0.5 transition-all text-xl cursor-pointer"
+            >
+                Comenzar
+            </button>
         </div>
     );
 };

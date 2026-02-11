@@ -1,11 +1,15 @@
-:root {
-  --color-primary: #F28D95; /* Pink */
-  --color-secondary: #D91A3D; /* Red */
-  --color-bg: #FFFFFF;
-  --color-text: #333333;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #F28D95;
+  --color-secondary: #D91A3D;
   --color-neutral-light: #F9F9F9;
-  
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  --font-sans: "Inter", system-ui, "Avenir", "Helvetica", "Arial", sans-serif;
+}
+
+:root {
+  font-family: var(--font-sans);
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,75 +19,38 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: var(--color-bg);
-  color: var(--color-text);
-  background-image: radial-gradient(circle at 10% 20%, var(--color-neutral-light) 0%, var(--color-bg) 90%);
+  @apply bg-white text-gray-800;
+  background-image: radial-gradient(circle at 10% 20%, #F9F9F9 0%, #FFFFFF 90%);
 }
 
-#root {
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5px);
+  }
+
+  50% {
+    transform: translateX(5px);
+  }
+
+  75% {
+    transform: translateX(-5px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-  color: var(--color-secondary);
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-  margin-bottom: 2rem;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1.2em;
-  font-weight: 600;
-  font-family: inherit;
-  background-color: var(--color-primary);
-  color: white;
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-button:hover {
-  background-color: var(--color-secondary);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 8px rgba(0,0,0,0.15);
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-.card {
-  background: white;
-  padding: 2rem;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(242, 141, 149, 0.2); /* Soft pink shadow */
-  width: 100%;
-  max-width: 600px;
-  border: 2px solid var(--color-primary);
+.shake {
+  animation: shake 0.2s ease-in-out 0s 2;
 }
