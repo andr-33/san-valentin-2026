@@ -41,7 +41,7 @@ function App() {
   };
 
   return (
-    <div className="w-screen p-8 text-center flex flex-col justify-center items-center min-h-screen">
+    <div className="w-screen p-4 md:p-8 text-center flex flex-col justify-center items-center min-h-screen">
       {gameState === 'start' && <StartScreen onStart={startGame} />}
 
       {gameState === 'playing' && (

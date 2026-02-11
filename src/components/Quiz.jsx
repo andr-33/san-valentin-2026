@@ -21,17 +21,17 @@ const Quiz = ({ question, currentQuestionIndex, totalQuestions, onAnswer }) => {
     };
 
     return (
-        <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-xl border-2 border-primary">
-            <div className="mb-4 text-primary font-bold">
+        <div className="bg-white p-6 md:p-8 rounded-2xl shadow-xl w-[300px] md:w-full md:max-w-xl border-2 border-primary">
+            <div className="mb-4 text-primary font-bold text-sm md:text-base">
                 Pregunta {currentQuestionIndex + 1} de {totalQuestions}
             </div>
-            <h2 className="mb-8 text-2xl font-bold text-secondary">{question.question}</h2>
-            <div className="grid gap-4 grid-cols-1">
+            <h2 className="mb-6 md:mb-8 text-xl md:text-2xl font-bold text-secondary">{question.question}</h2>
+            <div className="grid gap-3 md:gap-4 grid-cols-1">
                 {question.options.map((option, index) => {
                     const isSelected = selectedAnswer === option;
                     const isCorrect = option === question.answer;
 
-                    let buttonClass = "py-3 px-6 rounded-lg font-semibold border-2 transition-all duration-200 ";
+                    let buttonClass = "py-2.5 px-5 md:py-3 md:px-6 rounded-lg font-semibold border-2 transition-all duration-200 text-sm md:text-base ";
 
                     if (isAnswered) {
                         if (isSelected) {

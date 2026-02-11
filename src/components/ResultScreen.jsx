@@ -4,9 +4,9 @@ const ResultScreen = ({ score, totalQuestions, onRestart }) => {
     const isWinner = score >= 7;
 
     return (
-        <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-xl border-2 border-primary">
-            <h1 className="text-4xl font-bold text-secondary mb-4">{isWinner ? "¡Felicidades!" : "¡Casi lo logras!"}</h1>
-            <p className="text-2xl mb-4">
+        <div className="bg-white p-6 md:p-8 rounded-2xl shadow-xl w-[300px] md:w-[500px] border-2 border-primary text-center">
+            <h1 className="text-3xl md:text-4xl font-bold text-secondary mb-4">{isWinner ? "¡Felicidades!" : "¡Casi lo logras!"}</h1>
+            <p className="text-xl md:text-2xl mb-4">
                 Puntuación: {score} / {totalQuestions}
             </p>
 
